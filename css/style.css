@@ -339,8 +339,8 @@ p{max-width:64ch}
 .form-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);padding:clamp(24px,4vw,44px)}
 
 /* popup */
-#offer-pop{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
-#offer-pop.on{display:flex;animation:fade .35s}
+#offer-pop,#exit-pop{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px}
+#offer-pop.on,#exit-pop.on{display:flex;animation:fade .35s}
 .pop-bg{position:absolute;inset:0;background:rgba(10,10,20,.55);backdrop-filter:blur(3px)}
 .pop{position:relative;background:var(--bg);border-radius:var(--r-card);overflow:hidden;display:grid;grid-template-columns:1fr 1.15fr;width:min(860px,100%);max-height:calc(100vh - 40px);overflow-y:auto}
 .pop>img{width:100%;height:100%;object-fit:cover;min-height:100%}
